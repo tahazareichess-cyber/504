@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+height: 100%;
+width: 250px;
+position: absolute;
+background-color: #161616;
+transition: 0.5s ease;
+transform: translateX(-250px);
+z-index: 1;
+}
+.container .leson{
+    color: #fbfdce;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    background: linear-gradient(30deg,#00a2ff, #ffffff);
+}
+ol{
+    width: 100%;
+    list-style: none;
+
+
+}
+ol li{
+    display: block;
+    width: 100%;
+    list-style: none;
+}
+ol li a 
+{
+    color: #6ac957;
+    font-weight: 500;
+    padding: 15px 10px;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+    font-size: 20px;
+    position: relative;
+    letter-spacing: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+ol li a i{
+    width: 70px;
+    font-size: 25px; 
+    text-align: center;
+    padding-left: 1px; 
+      
+}
+ol li:hover a{
+    background: linear-gradient(30deg,#00a2ff, #ffffff);
+    color: #ffffff;
+    letter-spacing: 5px;
+
+} 
+input{
+    display: none;
+    visibility: hidden;
+}
+span{
+    position: absolute;
+    right: -30px;
+    top: 0px;
+    font-size: 25px;
+    border-radius: 3px;
+    color: #fff;
+    padding: 4px 0px;
+    cursor: pointer;
+    background: #000000;
+}
+#bars{
+   background: linear-gradient(30deg,#00a2ff, #ffffff);
+}
+#check:checked ~ .container {
+    transform: translateX(0);
+}
+#check:checked ~ .container #bars{
+    display: none;
+}
+body{
+     background: url(structure.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    transition: 0.5s;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    
+}
+#check:checked ~ body{
+    transform: scale(1.2);
+    filter: brightness(20%);
+}
+.glass
+{
+text-align:center ;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 50px;
+height: 35px;
+}
+.element{
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 300%;
+    -webkit-text-stroke: 2px black;
+}
+#ele{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    bottom: 100px;
+}
+#kkk{
+    position: relative;
+    left: 1300px;
+    top: 100px;
+}
+#jk{
+    position: relative;
+    left: 15px;
+}
+#not{
+    position: relative;
+    bottom: 74px;
+    font-size: 201%;
+    color: white;
+}
+.pain ul{
+    border-radius: 10px;
+    position: relative;
+    left: 300px;
+    width: 800px;
+    list-style-type: none;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px 3px rgb(228, 214, 214);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.pain a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.pain a:hover{
+background-color: rgb(72, 223, 215);
+letter-spacing: 2px;
+color: #000000;
+transition: 0.5s ease;
+}
+.pain li{
+    float: left;
+    padding: -10%;
+    width: 200px;
+}

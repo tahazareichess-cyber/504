@@ -1,0 +1,58 @@
+body{
+    background: url(vecteezy_modern-abstract-fabric-textile-for-sport-t-shirt-soccer_11020172-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: cover;
+}
+.somthing{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    backdrop-filter: blur(9px);
+    position: relative;
+    padding: 50px 30px;
+    width: 700px;
+    border-radius: 20px;
+    font-size: 150%;
+    color: aliceblue;
+    text-decoration: none;    
+}
+a{
+list-style: none;
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+#click{
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+    color: rgb(255, 255, 255);
+    width: 400px;
+}
+button{
+    left: 1200px;
+    bottom: 110px;
+    padding: 1em 2em;
+    background-color: black;
+    border: none;
+    color: rgb(219, 208, 194);
+    border-radius: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button::after{
+    content: '';
+    position: absolute;
+    height: 106%;
+    width: 103%;
+    border-radius: 1000px;
+    background-image: linear-gradient(to bottom right, #322fcf, #c9cc34);
+    z-index: -1;
+}
+button:hover{
+    z-index: 0;
+    box-shadow: 40px 0 100px #322fcf, -40px 0 100px #c9cc34;
+}
