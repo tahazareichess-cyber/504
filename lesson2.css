@@ -5,6 +5,10 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
 .dark{
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -47,4 +51,19 @@ button:hover{
     z-index: 0;
     box-shadow: 40px 0 100px #322fcf, -40px 0 100px #c9cc34;
     
+}
+@media screen and (max-width: 600px)
+{
+.dark{
+    width: 80%;
+    font-size: 140%;
+}
+body{
+width: 320px;
+margin: 4px;
+}
+button{
+    left: 4px;
+    bottom: 4px;
+}
 }
