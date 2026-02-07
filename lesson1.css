@@ -4,6 +4,10 @@ body{
     background-attachment: fixed;
     background-position: cover;
 }
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
 .somthing{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     backdrop-filter: blur(9px);
@@ -55,4 +59,22 @@ button::after{
 button:hover{
     z-index: 0;
     box-shadow: 40px 0 100px #322fcf, -40px 0 100px #c9cc34;
+}
+@media screen and (max-width: 600px)
+{
+    .somthing{
+    width: 80%;
+    font-size: 150%;
+}
+
+#click{
+    left: 50px;
+    bottom: 70px;
+    width: 250px;
+}
+button{
+    left: 0px;
+    bottom: 30px;
+}
+
 }
