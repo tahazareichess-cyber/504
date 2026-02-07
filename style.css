@@ -16,7 +16,7 @@ html, body {
     height: 100vh;
     width: 250px;
     position: fixed;
-    background-color: #161616;
+    background-color: #274170;
     transition: transform 0.5s ease;
     transform: translateX(-250px);
     z-index: 100;
@@ -26,18 +26,18 @@ html, body {
 }
 
 .container .head {
-    color: #fbfdce;
+    color: #ffffff;
     font-size: 30px;
     font-weight: bold;
     padding: 30px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
-    background: linear-gradient(30deg, #00a2ff, #ffffff);
+    background: linear-gradient(30deg, #ffffff, #ff0000);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    border-bottom: 2px solid rgba(255,255,255,0.1);
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 /* Sidebar List */
@@ -152,7 +152,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 255, 225, 0.5);
     backdrop-filter: blur(10px);
     box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
     border-radius: 10px;
@@ -184,9 +184,9 @@ section {
 }
 
 .pain a:hover {
-    background-color: rgba(72, 223, 215, 0.8);
-    letter-spacing: 1.5px;
-    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    letter-spacing: 5px;
+    color: #1100ff;
 }
 
 .pain a::after {
@@ -196,7 +196,7 @@ section {
     left: 50%;
     width: 0;
     height: 3px;
-    background: linear-gradient(30deg, #00a2ff, #ffffff);
+    background: linear-gradient(30deg, #0011ff, #01ffc8);
     transition: all 0.3s;
     transform: translateX(-50%);
 }
@@ -221,12 +221,12 @@ section {
 #jk {
     font-size: 3.5rem;
     color: white;
-    text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+    text-shadow: 3px 3px 10px rgba(226, 226, 226, 0.7);
     margin-bottom: 20px;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 5px rgba(201, 198, 198, 0.5);
     line-height: 1.6;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 255, 255, 0.5);
     border-radius: 10px;
 }
 
@@ -235,7 +235,7 @@ section {
     color: #f0f0f0;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     line-height: 1.6;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 255, 255, 0.5);
     padding: 20px;
     border-radius: 15px;
     backdrop-filter: blur(5px);
