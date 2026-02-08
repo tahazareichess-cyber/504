@@ -1,0 +1,63 @@
+body{
+    background: url(vecteezy_green-grass-texture-illustration-background_25949787.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body,html{
+    height: 100%;
+    overflow-x: hidden;
+}
+.bad{
+    width: 600px;
+    font-size: 200%;
+    backdrop-filter: blur(7px);
+    border-radius: 20px;
+    padding: 8px;
+}
+a{
+    text-decoration: none;
+    color: rgb(45, 45, 219);
+}
+button{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1000px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1000px;
+    bottom: 100px;
+}
+button::after{
+    content: '';
+    width: 105%;
+    height: 106%;
+    color: red;
+    background-image: linear-gradient(to left bottom, white ,blue);
+    position: absolute;
+    z-index: -1;
+    border-radius: 1000px;
+}
+button:hover{
+    z-index: 0;
+}
+#hhe{
+    color: white;
+}
+@media  screen and (max-width: 600px) {
+    .bad{
+    width: 200px;
+    font-size: 130%;
+}
+button{
+    left: 3px;
+    bottom: 0px;
+    top: 20px;
+}
+}

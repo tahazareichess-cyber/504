@@ -1,0 +1,65 @@
+body{
+    background: url(1_vector_seamless_background_generated.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+.help{
+    width: 400px;
+    font-size: 180%;
+    padding: 4px;
+    backdrop-filter: blur(20px);
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 0, 0.712);
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 251, 0);
+}
+button{
+color: white;
+border: none;
+border-radius: 1000px;
+padding: 1rem 2rem;
+background-color: aqua;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+left: 1000px;
+bottom: 100px;
+}
+button::after{
+    content: '';
+    position: absolute;
+    width: 108%;
+    height: 104%;
+    border-radius: 1000px;
+    background-image: linear-gradient(to bottom left, yellow, white);
+    z-index: -1;
+}
+button:hover{
+z-index: 0;
+}
+#moz{
+    color: black;
+}
+@media screen and (max-width: 600px){
+    .help{
+    width: 250px;
+    font-size: 130%;
+    padding: 5px;
+}
+button{
+left: 0px;
+bottom: 0px;
+top: 20px;
+}
+
+}
